@@ -39,7 +39,7 @@ namespace TDDCursusLibraryTest
         [TestMethod]
         public void NummerMet13CijfersEnEenJuistControleGetal2()
         {
-            new Isbn(9789027439642L);    //dit nummer mag geen exception veroorzaken
+            new Isbn(9789027439642L);
         }
         
         [TestMethod, ExpectedException(typeof(ArgumentException))]
