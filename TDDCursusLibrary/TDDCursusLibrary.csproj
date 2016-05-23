@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IKostDAO.cs" />
     <Compile Include="ILandDAO.cs" />
+    <Compile Include="IOpbrengstDAO.cs" />
     <Compile Include="ISBN.cs" />
     <Compile Include="Jaar.cs" />
     <Compile Include="Land.cs" />
@@ -49,6 +51,7 @@
     <Compile Include="Rekeningnummer.cs" />
     <Compile Include="Statistiek.cs" />
     <Compile Include="Veiling.cs" />
+    <Compile Include="WinstService.cs" />
     <Compile Include="Woord.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
